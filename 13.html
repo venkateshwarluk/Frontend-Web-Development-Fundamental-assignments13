@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	div{
+		background-image: url("img1.jpeg");
+		width:350px;
+		border: 1px solid ;
+		border-radius: 4px;
+		padding:12px;
+		margin:3px;
+	}
+	section {
+		margin:5px;
+	}
+	.buy{
+		border-radius: 6px;
+    margin:auto;
+    width: 75px;
+    display: block;
+	}
+	.container{
+		background-color: green;
+		width:380px;
+	}
+
+	.container div{
+		background-color: rgba(255, 255, 255, 0.4);
+	}
+
+
+	label {
+		text-align: center;
+		width: 28%;
+		display: inline-block;
+	}
+</style>
+<body>
+<div class="container">
+<h3>Step 1:Your details</h3>
+<div>
+		<label>Name</label>
+		<input type="text" name="Name" class="name" placeholder="Enter first and lastName">
+	</div>
+	<div>
+	  <label>Email</label>
+	  <input type="text" name="email" class="name" placeholder="venkatesh@domain.com">
+</div>
+<div>
+	  <label>Phone</label>
+	  <input type="text" name="phone" class="phone" placeholder="e.g.+4680003940000">
+</div>
+<section>
+<h3>Step 2:Delivery address</h3>
+	</section>
+	<div>
+	<label>Address</label>
+	<textarea></textarea>
+	</div>
+	<div>
+	<label>post code</label>
+	<input type="text" name="Name">
+	</div>
+	<div>
+	<label>country</label>
+	<input type="text" name="Name">
+	</div>
+	<section>
+<h3>Step 3:card details</h3>
+	</section>
+	<div>
+		<label>card type</label>
+		<input type="radio" name="name">
+		<img src="master card.gif" height="18px" width="20px">
+		<input type="radio" name="name">
+		<img src="visa.png" height="18px" width="20px">
+		<input type="radio" name="name">
+		<img src="discover.png" height="18px" width="20px">
+	</div>
+	<div>
+	<label>card no</label>
+	<input type="text" name="Name">
+	</div>
+	<div>
+	<label>security code</label>
+	<input type="text" name="Name">
+	</div>
+	<div>
+	<label>name on card</label>
+	<input type="text" name="Name" placeholder="exact name as on the card">
+	</div>
+		<input type="button" name="button" class="buy" value="BUY IT!">
+	</div>
+</body>
+</html>
